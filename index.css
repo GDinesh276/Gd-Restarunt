@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    /* background-color: black; */
+    height: 100vh;
+    width: 100%;
+
+}
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    /* overflow: hidden; */
+}
+.navbar{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: #f2e6b1;
+    font-size: 30px;
+    /* justify-content: space-evenly; */
+    font-family: cursive;
+}
+.img1{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+     position: relative;
+     display: flex;
+     justify-content: space-evenly;
+     height: 100px ;
+     width: 100%;
+      animation: navbar 1s ease-in-out
+     /* animation-name: navbar;
+     animation-timing-function: ease-in;
+     animation-iteration-count: 1;
+     transform:translateY(0) */
+}
+@keyframes navbar{
+    0%{
+       transform: translateY(-100%);
+    }
+}
+/* .page{
+    display: flex;
+    position: relative;
+}
+.slider{
+    display: flex;
+    position: absolute;
+} */
+video{
+    height: 600px;
+    width: 600px;
+   
+}
+a{
+    /* display: flex;
+    gap: 20px; */
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #f2e6b1;
+    text-decoration: none;
+    /* color: white; */
+}
+.loginpage{
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: azure;
+    color: black;
+
+}
+.navbar1 a:hover{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.navbar1{
+
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    /* color: white; */
+}
+.loginpage{
+    display: flex;
+    position: absolute;
+    background: none;
+    width: 50%;
+    top: 150px;
+    right: 20px;
+    height: 400px;
+    width: 400px;
+}
+.page img{
+    display: flex;
+}
+.content span{
+    color: #f2e6b1;
+}
+.content h3{
+    position: absolute;
+    top: 190px;
+    left: 10px;
+    font-size: 40px;
+}
+.content{
+    display: flex;
+    position: absolute;
+    width:50%;
+    /* right: 30px; */
+    
+    margin-top: 8%;
+    margin-left: 5%;
+    color:black;
+    overflow: hidden;
+    animation: content 2s ease-in-out;
+    }
+
+
+    @keyframes content {
+        0%{
+           
+            transform: translateX(-100%);}}
+
+.content h1{
+        font-size : 80px;
+        margin-bottom: 1%;
+        letter-spacing: 8px;
+        }
+.page{
+    display: flex;
+    position: relative;
+}
+ .login-container {
+      width: 400px;
+      height: 400px;
+      background:none;
+      box-shadow: 0px 3px 7px black;
+      position: relative;
+      display: flex;
+      /* margin: 50px auto; */
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+    animation: contents 3s ease-in-out;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .login-container h2 {
+        margin: auto;
+      text-align: center;
+      position: relative;
+      left: 80px;
+    }
+    form{
+        margin: auto;
+        margin-top: 100px;
+        position: relative;
+        right: 90px;
+    }
+   
+    @keyframes contents{
+        0%{
+           
+            transform: translateX(100%);}}
+
+
+    .login-container input[type="text"], .login-container input[type="password"] {
+      width: 100%;
+      height: 40px;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    .login-container input[type="submit"] {
+      width: 100%;
+      height: 40px;
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .login-container input[type="submit"]:hover {
+      background-color: #3e8e41;
+    }
+
+.navhome{
+    font-size: 50px;
+    margin: 25px;
+    font-family: cursive;
+    font-weight: 600;
+    color: #f2e6b1;
+    display: flex;
+}
+.booking{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    padding: 20px;
+}
+button{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    height: 50px;
+    width:auto ;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+}
+button a{
+    color: white;
+    
+}
+
+
+.page2{
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: auto;
+    color: whitesmoke;
+    background-image: url(./hotelhome2.jpg);
+    /* height: 200px; */
+    width: 100%;
+}
+.para{
+    margin: 10px;
+    /* margin-top: 100px; */
+    position: relative;
+    bottom: 600px;
+    font-size: 15px;
+    font-family:sans-serif;
+    color: white;
+}
+.para:hover{
+   /* color: red; */
+   text-shadow: 0px 5px 8px black;
+}
+.last{
+    margin: auto;
+    margin-bottom:10px;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    color: white;
+    background-color: goldenrod;
+    /* position: relative;
+    top: 1000px; */
+    
+}
+
+   
+
+.last .p1 {
+    color: black;
+    position: relative;
+    font-size: 2rem;
+    left: 600px;
+    top: 80px;
+    /* display: flex; */
+
+}
+.last .p2 {
+    color: black;
+    position: relative;
+    font-size: 2rem;
+    left: 10px;
+    top: 80px;
+    display: flex;
+
+}
+.footh1{
+    margin: auto;
+    left: 600px;
+    position: absolute;
+    color: white;
+}
+.last h3{
+     
+    font-size: 2rem;
+    margin-top: 30px;
+    position: absolute;
+    left: 600px;
+    color: white;
+}
+.middle{
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background:none;
+}
+
+
+video{
+    background: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* top: 900px;
+    left: 400px; */
+   
+}
+
+@media screen and (min-width:575px) {
+      .container{
+            width: 100%;
+            text-align : center;
+        }
+        
+        .page .page2{
+            width:100%;
+            position: absolute;
+            bottom :-5%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar .a{
+            width: 100%;
+        }
+        img{
+            width:auto;
+        }
+
+        /* .login-container{
+            width: 40%;
+            text-align: center;
+            font-size: 10%;
+        } */
+    }  
+
+@media screen and (min-width:600px)and(max-width:900px){
+    .container{
+            width: 100%;
+            text-align : center;
+        }
+
+        .navbar{
+            width: 100%;
+            text-align: center;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            justify-content: center;
+        }
+        
+        .page .page2{
+            width:100%;
+            position: absolute;
+            bottom :-5%;
+            display: flex;
+            justify-content: center;
+        }
+        img{
+            width:10%;
+        }
+}
+@media screen and (min-width:901px)and(max-width:1200px){
+    .container{
+            width: 100%;
+            text-align : center;
+        }
+
+        .navbar{
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .page .page2{
+            width:100%;
+            position: absolute;
+            bottom :-5%;
+            display: flex;
+            justify-content: center;
+        }
+        img a{
+            width:10%;
+            height: 10%;
+        }
+
+        .loginpage{
+            height: 20%;
+            width: 20%;
+            display: block;
+        }
+        .content{
+            font-size: 20px;
+            display: block;
+        }
+}

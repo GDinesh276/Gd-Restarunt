@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    border: 10px solid white;
+
+}
+nav{
+   
+    color: black;
+    height: 100%;
+    font-size: 60px;
+    background-color: orange;
+}
+
+p{
+  color: #d4af37;
+    position: relative;
+    top: 20px;
+}
+h2{
+    position: relative;
+    top: 50px;
+}
+button{
+    font-size: 15px;
+    position: relative;
+    top: 80px;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container1{
+      position: relative;
+      display: block;
+    }
+
+    .image {
+      width: 500px;
+      height: 500px;
+      margin: 10px 0px;
+      border-radius:10px ;
+      border:10px solid white ;
+      display: block;
+    }
+
+    .slide-content1{
+      position: absolute;
+      top: 0;
+      left: 100%; /* Start hidden to the right of the image */
+      width: 500px;
+      height: 100%;
+      background: #333;
+      color: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-sizing: border-box;
+      transform: translateX(100%); /* Slide-in from the left */
+      opacity: 0;
+      transition: transform 0.5s ease, opacity 0.5s ease;
+      
+    }
+
+    .container1:hover .slide-content1 {
+      transform: translateX(-173%);
+      opacity: 1;
+      
+    }
+
+    .container2{
+      position: relative;
+      display: block;
+    }
+
+    
+    
+    .slide-content2{
+      position: absolute;
+      top: 0;
+      left: 100%; /* Start hidden to the right of the image */
+      width: 500px;
+      height: 100%;
+      background: #333;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-sizing: border-box;
+      transform: translateX(100%); /* Slide-in from the left */
+      opacity: 0;
+      transition: transform 0.5s ease, opacity 0.5s ease;
+      
+    }
+
+    .container2:hover .slide-content2{
+      transform: translateX(-173%);
+      opacity: 1;
+     
+    }.container3 {
+      position: relative;
+      display: block;
+    }
+
+   
+
+    .slide-content3{
+      position: absolute;
+      top: 0;
+      left: 100%; /* Start hidden to the right of the image */
+      width: 500px;
+      height: 100%;
+      background: #333;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-sizing: border-box;
+      transform: translateX(100%); /* Slide-in from the left */
+      opacity: 0;
+      transition: transform 0.5s ease, opacity 0.5s ease;
+      
+    }
+
+    .container3:hover .slide-content3 {
+      transform: translateX(-173%);
+      opacity: 1;
+      
+    }.container4 {
+      position: relative;
+      display: block;
+    }
+
+   
+
+    .slide-content4{
+      position: absolute;
+      top: 0;
+      left: 100%; /* Start hidden to the right of the image */
+      width: 500px;
+      height: 100%;
+      background: #333;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-sizing: border-box;
+      transform: translateX(100%); /* Slide-in from the left */
+      opacity: 0;
+      transition: transform 0.5s ease, opacity 0.5s ease;
+     
+    }
+
+    .container4:hover .slide-content4{
+      transform: translateX(-173%);
+      opacity: 1;
+     
+    }.container5 {
+      position: relative;
+      display: block;
+    }
+
+   
+
+    .slide-content5{
+      position: absolute;
+      top: 0;
+      left: 100%; /* Start hidden to the right of the image */
+      width: 500px;
+      height: 100%;
+      background: #333;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      transform: translateX(100%); /* Slide-in from the left */
+      opacity: 0;
+      transition: transform 0.5s ease, opacity 0.5s ease;
+     
+    }
+
+    .container5:hover .slide-content5 {
+      transform: translateX(-173%);
+      opacity: 1;
+      
+    }.container6 {
+      position: relative;
+      display: block;
+    }
+
+   
+
+    .slide-content6{
+      position: absolute;
+      top: 0;
+      left: 100%; /* Start hidden to the right of the image */
+      width: 500px;
+      height: 100%;
+      background: #333;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      transform: translateX(100%); /* Slide-in from the left */
+      opacity: 0;
+      transition: transform 0.5s ease, opacity 0.5s ease;
+      
+    }
+
+    .container6:hover .slide-content6{
+      transform: translateX(-173%);
+      opacity: 1;
+      
+    }.container7 {
+      position: relative;
+      display: block;
+    }
+
+   
+
+    .slide-content7{
+      position: absolute;
+      top: 0;
+      left: 100%; /* Start hidden to the right of the image */
+      width: 500px;
+      height: 100%;
+      background: #333;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      transform: translateX(100%); /* Slide-in from the left */
+      opacity: 0;
+      transition: transform 0.5s ease, opacity 0.5s ease;
+      
+    }
+
+    .container7:hover .slide-content7 {
+      transform: translateX(-173%);
+      opacity: 1;
+     
+    }.container8 {
+      position: relative;
+      display: block;
+    }
+
+   
+
+    .slide-content8{
+      position: absolute;
+      top: 0;
+      left: 100%; /* Start hidden to the right of the image */
+      width: 500px;
+      height: 100%;
+      background: #333;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      transform: translateX(100%); /* Slide-in from the left */
+      opacity: 0;
+      transition: transform 0.5s ease, opacity 0.5s ease;
+      
+    }
+
+    .container8:hover .slide-content8 {
+      transform: translateX(-173%);
+      opacity: 1;
+     
+
+    }
+  @media screen and (max-width:574px) {
+    
+  
+    .container .container1 .container2 .container3 .container4{
+            width: 100%;
+            text-align : center;
+        }
+
+        .navbar{
+            width: 100%;
+            text-align: center;
+            font-size: 10%;
+            display: flex;
+            justify-content: center;
+        }
+        
+       
+        .image {
+            width:30%;
+            height: 30%;
+        }
+      }
