@@ -341,11 +341,11 @@ video{
             width:auto;
         }
 
-        /* .login-container{
+        .login-container{
             width: 40%;
             text-align: center;
             font-size: 10%;
-        } */
+        }
     }  
 
 @media screen and (min-width:600px)and(max-width:900px){
